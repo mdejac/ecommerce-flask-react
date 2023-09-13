@@ -206,7 +206,7 @@ class Cart:
                     'quantity': int(product_quantities[i]),
                     'quantity_in_cart': int(product_quantities_in_cart[i]),
                     'price': float(product_prices[i]),
-                    'img_url': product_img_urls[i],
+                    'img_filename': product_img_urls[i],
                     'creator' : user.User.get_user_by_id(product_user_ids[i]),
                     'created_at': product_created_ats[i],
                     'updated_at': product_updated_ats[i],
